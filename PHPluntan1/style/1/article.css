@@ -1,0 +1,267 @@
+@CHARSET "UTF-8";
+#article{
+
+    width:auto;
+    min-height:800px;
+    border:2px solid #ccc;
+    font-size:12px;
+    position:relative;
+}
+
+#article h2{
+    text-indent:0;
+    text-align:center;
+}
+#article img.real{
+    position: absolute;
+    top:0px;
+    left:600px;
+}
+#article img.hot{
+    position: absolute;
+    top:0px;
+    left:700px;
+}
+#article #subject{
+
+}
+#article #subject dl{
+    width:170px;
+    padding:10px 0 0 45px;
+    float:left;
+
+
+}
+
+#article #subject dl dt{
+    width: 170px;
+    margin:0 0 5px 0;
+
+}
+
+#article #subject dl dt img{
+    margin:0 auto;
+    display:block;
+}
+
+#article #subject dl dd{
+
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    width:85px;
+    float:left;
+
+}
+#article #subject dl dd.url {
+    width:170px;
+    text-align:left;
+    padding:2px 0 0 0;
+    text-indent:5px;
+
+}
+#article #subject dl dd a {
+    text-decoration: none;
+    color: #333;
+
+}
+#article #subject dl dd.user{
+
+    width:170px;
+    float:none;
+}
+
+#article #subject dl dd.message{
+    background: url("../../iamge/x1.png")no-repeat left center;
+}
+#article #subject dl dd.friend{
+    background: url("../../iamge/x2.png")no-repeat left center;
+}
+#article #subject dl dd.guest{
+    background: url("../../iamge/x3.png")no-repeat left center;
+}
+#article #subject dl dd.flower{
+    background: url("../../iamge/x4.png")no-repeat left center;
+}
+#article div.content{
+    float: right;
+    width:680px;
+    height:30px;
+    line-height:30px;
+    padding:5px 20px 0 0;
+}
+#article div.content.user{
+     background:url(../../iamge/member.png) no-repeat left center;
+     border-bottom: 1px dashed #999;
+     color:#666;
+     padding:0 0 0 20px
+
+ }
+#article div.content.user span{
+    float:right;
+    color:#06f;
+}
+#article div.content h3{
+    font-size:14px;
+    height: 40px;
+    line-height: 40px;
+}
+#article div.content h3 span{
+    font-size: 12px;
+    font-weight: normal;
+    color:#06f;
+}
+#article div.content h3 span a {
+    text-decoration:none;
+    color:#06f;
+}
+#article div.content h3 span a:hover {
+    color:#f60;
+    text-decoration: underline;
+}
+#article div.content.detail {
+    line-height: 200%;
+    font-size:14px;
+}
+#article div.content.detail p.autograph{
+    color: #666;
+    border-top:1px dashed #666 ;
+
+}
+#article div.content.read{
+    font-size: 14px;
+    color: #666;
+}
+#article p.line {
+    clear:both;
+    width: 95%;
+    margin:0 auto;
+    height: 20px;
+    border-bottom: 1px dashed #333;
+}
+
+#article dl{
+    background: white;
+    width: 450px;
+    margin: 0 auto;
+
+}
+#article dl dt{
+    text-align: center;
+    padding:10px 0;
+    font-weight: bold;
+}
+#article dl dd{
+    padding:5px 0;
+}
+#article dl dd div#ubb{
+    width:410px;
+    height: 22px;
+    background:url("../../iamge/ubb1.png")no-repeat left center;
+    border: 1px dashed #333;
+    border-bottom:1px solid #666;
+
+}
+#article dl dd div#ubb img{
+    display: block;
+    float: left;
+    padding:3px 0 0 3px;
+}
+#article dl dd textarea{
+    width: 412px;
+    height: 200px;
+    border: 1px dashed #333;
+    border-top:none;
+    background: #fff;
+    overflow-y:auto;
+    padding:5px;
+}
+
+#article dl dd.face img{
+    cursor:pointer;
+
+}
+
+#article dl dd input.submit{
+    width:75px;
+    height: 21px;
+    border:1px dashed #333;
+    background: #ffff;
+    cursor:pointer;
+
+}
+#article dl dd input.submit:hover{
+    background: #eee;
+}
+#article dl dd img#code{
+    position:relative;
+    top:8px;
+    cursor:pointer;
+}
+
+#article dl dd input.yzm{
+    width:60px;
+}
+#article dl dd#q a{
+    text-decoration: none;
+    color: #333;
+}
+
+#article div.re dl{
+    width:170px;
+    padding:10px 0 0 45px;
+    float:left;
+
+
+}
+
+#article div.re dl dt{
+    width: 170px;
+    margin:0 0 5px 0;
+
+}
+
+#article div.re dl dt img{
+    margin:0 auto;
+    display:block;
+}
+
+#article div.re dl dd{
+
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    width:85px;
+    float:left;
+
+}
+#article div.re dl dd.url {
+    width:170px;
+    text-align:left;
+    padding:2px 0 0 0;
+    text-indent:5px;
+
+}
+#article div.re dl dd a {
+    text-decoration: none;
+    color: #333;
+
+}
+#article div.re dl dd.user{
+
+    width:170px;
+    float:none;
+}
+
+#article div.re dl dd.message{
+    background: url("../../iamge/x1.png")no-repeat left center;
+}
+#article div.re dl dd.friend{
+    background: url("../../iamge/x2.png")no-repeat left center;
+}
+#article div.re dl dd.guest{
+    background: url("../../iamge/x3.png")no-repeat left center;
+}
+#article div.re dl dd.flower{
+    background: url("../../iamge/x4.png")no-repeat left center;
+}

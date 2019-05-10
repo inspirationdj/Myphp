@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+
+
+#list{
+     width:600px;
+     height:514px;
+     border:2px solid #ccc;
+     float:right;
+ }
+#list a.post{
+    display: block;
+    width:54px;
+    height: 48px;
+    background: url(../../iamge/wenzhang.png)no-repeat;
+    text-indent:-9999px;
+    margin:10px 10px 0 auto;
+}
+#list ul.article{
+padding: 10px 45px;
+    font-size: 15px;
+}
+#list ul li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom:1px dashed #333;
+}
+#list ul.article li a{
+    color:#333;
+
+}
+#list ul.article li a:hover{
+    color:#f60;
+}
+#list ul.article li em{
+    float:right;
+    font-style:normal;
+}
+#list ul.article li{
+    padding:0 0 0 20px;
+}
+#list ul.article li.icon1{
+    background:url("../../iamge/icon1.png")no-repeat left center;
+}
+#list ul.article li.icon2{
+    background:url("../../iamge/icon2.png")no-repeat left center;
+}
+#list ul.article li.icon3{
+    background:url("../../iamge/icon3.png")no-repeat left center;
+}
+#list ul.article li.icon4{
+    background:url("../../iamge/icon4.png")no-repeat left center;
+}
+#list ul.article li.icon5{
+    background:url("../../iamge/icon5.png")no-repeat left center;
+}
+#list ul.article li.icon6{
+    background:url("../../iamge/icon6.png")no-repeat left center;
+}
+#list ul.article li.icon7{
+    background:url("../../iamge/icon7.png")no-repeat left center;
+}
+
+#user{
+    width:340px;
+    height:250px;
+    border:2px solid #ccc;
+    float:left;
+    margin:0 0 10px 0;
+    font-size: 12px;
+}
+
+#pics{
+    width:340px;
+    height:250px;
+    border:2px solid #ccc;
+    float:left;
+}
+#user dl{
+    width:170px;
+    padding:10px 0 0 0;
+    margin:0 auto;
+
+}
+
+#user dl dt{
+    width: 170px;
+    margin:0 0 5px 0;
+
+}
+
+#user dl dt img{
+    margin:0 auto;
+    display:block;
+}
+
+#user dl dd{
+
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    width:85px;
+    float:left;
+
+}
+#user dl dd.url {
+    width:170px;
+    text-align:left;
+    padding:2px 0 0 0;
+    text-indent:5px;
+
+}
+#user dl dd a {
+    text-decoration: none;
+    color: #333;
+
+}
+#user dl dd.user{
+
+    width:170px;
+    float:none;
+}
+
+#user dl dd.message{
+    background: url("../../iamge/x1.png")no-repeat left center;
+}
+#user dl dd.friend{
+    background: url("../../iamge/x2.png")no-repeat left center;
+}
+#user dl dd.guest{
+    background: url("../../iamge/x3.png")no-repeat left center;
+}
+#user dl dd.flower{
+    background: url("../../iamge/x4.png")no-repeat left center;
+}
+#pics img{
+    display: block;
+    margin: 20px auto;
+    border:none;
+}
